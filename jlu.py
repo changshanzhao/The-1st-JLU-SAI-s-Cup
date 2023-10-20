@@ -94,4 +94,4 @@ for user_id in range(1, 1327):
     ans['recommend_list'].append(recommend_list)
 
 dataframe = pd.DataFrame(ans)
-dataframe.to_csv("data/PopItem.csv", index=False)
+dataframe.to_csv("result/PopItem.csv", index=False)
